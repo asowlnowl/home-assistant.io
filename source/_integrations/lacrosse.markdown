@@ -22,6 +22,10 @@ Since the sensor change their ID after each powercycle/battery change you can ch
 ```bash
 sudo pylacrosse -d /dev/ttyUSB0 scan
 ```
+to use in a container
+```bash
+sudo docker exec -it ha pylacrosse -d /dev/ttyUSB0 scan
+```
 
 ## Configuration
 
